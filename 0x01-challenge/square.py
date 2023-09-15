@@ -1,11 +1,11 @@
 #!/usr/bin/python3
 """
-Square class
+Module for Square class
 """
 
 
 class Square():
-
+    """Square class"""
     width = 0
     height = 0
 
@@ -28,6 +28,7 @@ class Square():
 
 
 if __name__ == "__main__":
+    """create an instance of Square class"""
 
     s = Square(width=12, height=9)
     print(s)
